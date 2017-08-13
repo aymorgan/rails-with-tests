@@ -38,11 +38,14 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 # gem 'autoprefixer-rails', '~> 7.1', '>= 7.1.2.4'
 
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
   # Added as part of tutorial
   gem 'rspec-rails', '~> 3.6', '>= 3.6.1'
+  gem 'guard-rspec', '~> 4.7', '>= 4.7.3', require: false
+  gem 'spring-commands-rspec', '~> 1.0', '>= 1.0.4'
 end
 
 group :test do
