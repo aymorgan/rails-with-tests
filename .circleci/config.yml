@@ -1,5 +1,5 @@
 deployment:
-  prod
+  prod:
     branch: master
     heroku:
       appname: rails-with-tests
