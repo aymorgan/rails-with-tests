@@ -23,3 +23,8 @@ module AppWithTest
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+# Added as part of getting started with Sentry.io 
+Raven.configure do |config|
+  config.dsn = 'https://9672477420324f27980ee9bd28c6948a:b7adc9220c3b4c24a4443206e7b5daa9@sentry.io/206972'
+end
